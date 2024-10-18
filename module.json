@@ -1,7 +1,7 @@
 {
   "id": "sauras-etc",
   "title": "Saura's Etc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -18,22 +18,22 @@
       "label": "Character",
       "path": "packs/character",
       "type": "Actor",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "scene",
       "label": "Scene",
       "path": "packs/scene",
       "type": "Scene",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     }
   ],
   "manifest": "#{MANIFEST}#",
